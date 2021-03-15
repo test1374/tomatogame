@@ -663,22 +663,4 @@ draw = function() {
   textSize(20);
   fill(255);
   text("Made by Henry MacDougall", 20, 570);
-  if(key === 'a') {
-    leftKeyPressed = true;
-  }
-  else{
-    leftKeyPressed = false;
-  }
-  if(key === 'w') {
-    upKeyPressed = true;
-  }
-  else{
-    upKeyPressed = false;
-  }
-  if(key === 'd') {
-    rightKeyPressed = true;
-  }
-  else{
-    rightKeyPressed = false;
-  }
 };
