@@ -454,25 +454,25 @@ var drawLevel = function(x, y) {
 
 };
 keyPressed = function() {
-  if (keyCode === 65 || keyCode === LEFT_ARROW) {
+  if (key === 'a' || keyCode === LEFT_ARROW) {
     player.keys[0] = true;
   }
-  if (keyCode === 87 || keyCode === UP_ARROW) {
+  if (key === 'w' || keyCode === UP_ARROW) {
     player.keys[1] = true;
   }
-  if (keyCode === 68 || keyCode === RIGHT_ARROW) {
+  if (key === 'd' || keyCode === RIGHT_ARROW) {
     player.keys[2] = true;
   }
 };
 
 keyReleased = function() {
-  if (keyCode === 65 || keyCode === LEFT_ARROW) {
+  if (key === 'a' || keyCode === LEFT_ARROW) {
     player.keys[0] = false;
   }
-  if (keyCode === 87 || keyCode === UP_ARROW) {
+  if (key === 'w' || keyCode === UP_ARROW) {
     player.keys[1] = false;
   }
-  if (keyCode === 68 || keyCode === RIGHT_ARROW) {
+  if (key === 'd' || keyCode === RIGHT_ARROW) {
     player.keys[2] = false;
   }
 };
