@@ -176,7 +176,9 @@ var human = function(x, y, num) {
       scream.play();
   }
   }
-    
+  if(humany[num].typeOf !== "number") {
+    humany.splice(num, 1);
+  }
 };
 var invisBlock = function(x, y) {
   if (player.y >= y - blockSize && player.y < y && 270 > x - blockSize && 270 < x + blockSize) {
